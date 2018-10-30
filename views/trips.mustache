@@ -1,0 +1,26 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/site.css"/>
+</head>
+
+<body>
+  {{#tripList}}
+  <h3 class="tripTitle">{{destination}}</h3>
+  <ul>
+
+<li>
+  <img class="image" src="{{image}}"/>
+</li>
+<li>
+  Departure Date: {{departureDate}}
+</li>
+<li>
+  Return Date: {{returnDate}}
+</li>
+{{/tripList}}
+
+</ul>
+
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="/css/site.css"/>
+</head>
+
+<body>
+  <h2 >Add your trip</h2>
+  <form action="/add_trips" method="POST">
+    <label> Enter your trip location:
+    <input type="text" placeholder="Enter destination name..." onfocus="this.placeholder=''" name="tripLocation"/></label> <br /><br />
+    <label>Departure date:<input type="date" name="dateOfDeparture"/></label> <br /><br />
+    <label>Return date:<input type="date" name="dateOfReturn"/></label><br /><br />
+    <label>Upload your trip image:
+    <input type="text" placeholder="Enter image url here..." onfocus="this.placeholder=''" name="tripImage"/></label> <br /><br />
+    <input type="submit"/>
+  </form>
+</body>
+</html>
